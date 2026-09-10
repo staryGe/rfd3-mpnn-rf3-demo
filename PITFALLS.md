@@ -61,7 +61,7 @@ grep -n "MPNN_PER_INPUT_INFERENCE_DEFAULTS" -B 2 -A 40 \
 
 
 
-## 4. 【核心发现】官方示例 Notebook 中 RF3 验证环节存在变量引用错误
+## 4. 官方示例 Notebook 中 RF3 验证环节存在变量引用错误
 
 **现象**：
 按照官方 end-to-end notebook（RFD3 → MPNN → RF3）原始代码跑完整个流程后，得到的 backbone RMSD 异常偏高（10.56 ~ 38.19 Å），
